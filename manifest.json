@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Redirect",
+  "version": "1.0",
+  "description": "Redirects YouTube watch URLs to lwytui.github.io",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "applications": {
+    "gecko": {
+      "id": "firefox-ext@lwytui.github.io"
+    }
+  }
+}
