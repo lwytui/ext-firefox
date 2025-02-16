@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "YouTube Redirect",
+  "name": "LWYTUI Redirect Helper",
   "version": "1.0",
-  "description": "Redirects YouTube watch URLs to lwytui.github.io",
+  "description": "Redirects YouTube URLs to lwytui.github.io",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
